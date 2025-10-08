@@ -19,11 +19,11 @@ class Student {
 public class StudentFiltering {
     public static void main(String[] args) {
         List<Student> students = Arrays.asList(
-            new Student("John", 72),
-            new Student("Emma", 85),
-            new Student("Mike", 90),
-            new Student("Sophia", 78),
-            new Student("David", 60)
+            new Student("Rohan", 72),
+            new Student("Manan", 85),
+            new Student("Mohit", 90),
+            new Student("Sita", 78),
+            new Student("Rohit", 60)
         );
 
         System.out.println("Students scoring above 75% sorted by marks:");
